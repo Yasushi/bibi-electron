@@ -1,0 +1,29 @@
+{
+  "name": "bibi-electron",
+  "version": "0.998.3",
+  "description": "BiB/i on electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "napa"
+  },
+  "author": "Yasushi Abe <yasushi.abe@gmail.com>",
+  "repository": "https://github.com/Yasushi/bibi-electron",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-atom-electron": "^0.12.0",
+    "gulp-download-electron": "0.0.5",
+    "gulp-electron-downloader": "0.0.1",
+    "gulp-replace": "^0.5.3",
+    "gulp-util": "^3.0.5",
+    "merge-stream": "^0.1.7",
+    "napa": "^1.2.0"
+  },
+  "optionalDependencies": {
+    "bibi": ""
+  },
+  "napa": {
+    "bibi": "satorumurmur/bibi#v0.998.3"
+  }
+}
